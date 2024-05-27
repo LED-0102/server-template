@@ -1,4 +1,9 @@
+#URL for Postgres database
 DB_URL: postgres://username:password@localhost/server-template
+
+#secret key for JWT
 SECRET_KEY: secret
+
+#JWT expiry in minutes
 EXPIRE_MINUTES: 120
 REDIS_URL: redis://127.0.0.1/
