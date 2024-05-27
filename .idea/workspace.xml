@@ -14,29 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b7522c2-c6e0-443d-80ef-bf98e61b2451" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/front_end/src/components/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front_end/src/components/hello-world.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/hello_world.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/mod.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/538d7dc6-7be4-48bc-b0df-7ae152cd8065.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/538d7dc6-7be4-48bc-b0df-7ae152cd8065/storage_v2/_src_/database/postgres.edMnLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/538d7dc6-7be4-48bc-b0df-7ae152cd8065/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dtsSettings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/server-template.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/mod.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +117,8 @@
       <workItem from="1716639568065" duration="4501000" />
       <workItem from="1716706190311" duration="7680000" />
       <workItem from="1716732894791" duration="2299000" />
-      <workItem from="1716782773030" duration="2149000" />
+      <workItem from="1716782773030" duration="3565000" />
+      <workItem from="1716807844950" duration="602000" />
     </task>
     <servers />
   </component>
