@@ -9,7 +9,7 @@ pub mod register;
 
 pub fn auth_config(cfg: &mut web::ServiceConfig) {
     cfg.service(
-        web::scope("/auth")
+        web::scope("v1/auth")
             .route("/register", web::post().to(register))
             .route("/login", web::post().to(login)),
     );

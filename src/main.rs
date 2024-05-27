@@ -3,6 +3,7 @@ extern crate diesel;
 extern crate dotenv;
 
 use crate::auth::auth_config;
+use crate::view::view_config;
 use actix_cors::Cors;
 use actix_service::Service;
 use actix_web::{middleware::Logger, App, HttpResponse, HttpServer};
@@ -14,6 +15,7 @@ mod counter;
 mod database;
 mod models;
 mod schema;
+mod view;
 
 pub type Res<T> = Result<T, Box<dyn std::error::Error>>;
 #[actix_web::main]
@@ -56,10 +58,11 @@ async fn main() -> std::io::Result<()> {
             })
             .wrap(cors)
             .wrap(Logger::new("%a %{User-Agent}i %r %s %D"))
-            .configure(auth_config);
+            .configure(auth_config)
+            .configure(view_config);
         return app;
     })
-    .workers(4)
+    .workers(1)
     .bind(("127.0.0.1", 8080))?
     .run()
     .await
