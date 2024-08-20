@@ -1,0 +1,31 @@
+services:
+  postgres:
+    container_name: 'template-postgres'
+    image: 'postgres:latest'
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      - 'POSTGRES_USER=username'
+      - 'POSTGRES_DB=server-template'
+      - 'POSTGRES_PASSWORD=password'
+
+  redis:
+    container_name: 'template-redis'
+    image: 'redis:latest'
+    ports:
+      - '6379:6379'
+
+#  rust_app:
+#    restart: on-failure
+#    build:
+#      context: back_end
+#      dockerfile: Dockerfile
+#    container_name: 'template-backend'
+#    environment:
+#      DATABASE_URL: postgres://username:password@postgres:5432/server-template
+#    ports:
+#      - '8080:8080'
+#    depends_on:
+#      - redis
+#      - postgres

@@ -21,7 +21,7 @@ pub type Res<T> = Result<T, Box<dyn std::error::Error>>;
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     env_logger::init_from_env(env_logger::Env::new().default_filter_or("info"));
-    const ALLOWED_VERSION: &'static str = include_str!("./output_data.txt");
+    const ALLOWED_VERSION: &'static str = "v1";
     let site_counter = counter::Counter { count: 0 };
     site_counter.save().expect("Error saving the counter");
 
@@ -63,7 +63,7 @@ async fn main() -> std::io::Result<()> {
         return app;
     })
     .workers(1)
-    .bind(("127.0.0.1", 8080))?
+    .bind(("0.0.0.0", 8080))?
     .run()
     .await
 }
